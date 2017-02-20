@@ -1,0 +1,23 @@
+{
+  "name": "brucejooste",
+  "version": "0.0.1",
+  "description": "Testing process for custom npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucejooste/custom-npm-library-test.git"
+  },
+  "author": "Bruce Jooste <bsjooste@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucejooste/custom-npm-library-test/issues"
+  },
+  "homepage": "https://github.com/brucejooste/custom-npm-library-test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
